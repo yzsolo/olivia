@@ -66,7 +66,7 @@ let talk = (q) => {
     res.setEncoding('utf8');
     res.on('data',function(data){
       let datas = JSON.parse(data);
-      console.log(datas.data.answer);
+      console.log("Olivia: " + datas.data.answer);
     });
 	});
 
