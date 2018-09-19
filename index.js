@@ -79,7 +79,7 @@ let talk = (q) => {
 }
  
 program
-  .version('0.0.2')
+  .version('1.0.0')
   .arguments('<cmd>')
   .action((cmd, options)=>{
     cmdValue = cmd;

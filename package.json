@@ -1,6 +1,6 @@
 {
   "name": "olivia",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "talk with you",
   "main": "index.js",
   "scripts": {
