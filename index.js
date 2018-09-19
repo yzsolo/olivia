@@ -66,7 +66,7 @@ let talk = (q) => {
     res.setEncoding('utf8');
     res.on('data',function(data){
       let datas = JSON.parse(data);
-      console.log(data);
+      console.log(datas.data.answer);
     });
 	});
 
@@ -79,7 +79,7 @@ let talk = (q) => {
 }
  
 program
-  .version('0.0.1')
+  .version('0.0.2')
   .arguments('<cmd>')
   .action((cmd, options)=>{
     cmdValue = cmd;
