@@ -2,6 +2,8 @@
 olivia，我的小管家
 
 ## Installation
+你可能需要先安装 [node](https://nodejs.org/en/)
+安装完成后，命令行下执行如下指令：
 ```
 npm i -g olivia
 ```
