@@ -28,4 +28,6 @@ eg：alias oli＝"olivia"
 oli hello
 ```
 
+有好的扩展建议，欢迎提出来。
+
 write for fun, enjoy!
